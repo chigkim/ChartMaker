@@ -5,6 +5,7 @@ import os
 import codecs
 import sys
 import lxml.etree as ET
+import platform
 
 class WebPanel(wx.Panel):
 	def __init__(self, parent):
@@ -72,11 +73,13 @@ class Window(wx.Frame):
 	def focus(self):
 		focus = self.WebPanel.browser
 		focus.SetFocus()
-		robot = wx.UIActionSimulator()  
-		position = focus.GetPosition() 
-		position = focus.ClientToScreen(position) 
-		robot.MouseMove(position) 
-		robot.MouseClick()    
+		if platform.system() == 'Windows':
+			robot = wx.UIActionSimulator()  
+			position = focus.GetPosition() 
+			position = focus.ClientToScreen(position) 
+			robot.MouseMove(position) 
+			robot.MouseClick()    
+
 
 	def convert(self):
 		dom = ET.parse(self.file)
