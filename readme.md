@@ -7,7 +7,7 @@ The [iReal Pro iOS app](https://apps.apple.com/us/app/ireal-pro/id298206806) is 
 ## Downloading and Using ChartMaker
 ChartMaker is a stopgap utility for converting MusicXML into JAM Braille. It is far from ideal, but is intended to make it relatively straight forward for motivated blind musicians to easily produce braille chord charts from iReal Pro MusicXML files.
 
-* [Mac ChartMaker v0.1.0-alpha.1](https://github.com/chigkim/ChartMaker/releases/download/v0.1.0-alpha.1/ChartMaker-Mac.v0.1.0-alpha.1.zip)
+* [Mac ChartMaker v0.1.0-alpha.1](https://github.com/chigkim/ChartMaker/releases/download/v0.1.0-alpha.1/ChartMaker-Mac-v0.1.0-alpha.1.zip)
 * [Windows ChartMaker v0.1.0-alpha.1](https://github.com/chigkim/ChartMaker/releases/download/v0.1.0-alpha.1/ChartMaker-Win.v0.1.0-alpha.1.zip)
 
 To make beautiful braille chord charts  with ChartMaker follow these steps:
