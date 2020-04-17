@@ -1,19 +1,21 @@
 # Welcome to ChartMaker
+This is forked from JoshMiele/ChartMaker for cross-platform compatibility.
 
 ChartMaker transforms  MusicXML files exported from   [iReal Pro](https://irealpro.com) into nicely formatted braille chord charts known as JAM Braille. The system adds notation to the minimal guidance found in the [BANA braille music standards](http://www.brailleauthority.org/music/music.html) to make braille chord charts intuitive, compact, and easy to read. JAM Braille  is designed specifically to work with MusicXML files exported from iReal Pro and is unlikely to work properly with other musicXML files.
 The [iReal Pro iOS app](https://apps.apple.com/us/app/ireal-pro/id298206806) is reasonably usable with VoiceOver. You need to buy the app in order to use ChartMaker.
 
 ## Downloading and Using ChartMaker
-ChartMaker is a Windows-based stopgap utility for converting MusicXML into JAM Braille. It is far from ideal, but is intended to make it relatively straight forward for motivated blind musicians to easily produce braille chord charts from iReal Pro MusicXML files.
+ChartMaker is a stopgap utility for converting MusicXML into JAM Braille. It is far from ideal, but is intended to make it relatively straight forward for motivated blind musicians to easily produce braille chord charts from iReal Pro MusicXML files.
 
-To install ChartMaker, [download the ChartMaker ZIP file](https://github.com/JoshMiele/ChartMaker/archive/master.zip), unzip it, and put the ChartMaker folder in a convenient location on your Windows machine -- it doesn't need to be in any special location to work.
+* [Mac ChartMaker v0.1.0-alpha.1](https://github.com/chigkim/ChartMaker/releases/download/v0.1.0-alpha.1/ChartMaker-Mac.v0.1.0-alpha.1.zip)
+* [Windows ChartMaker v0.1.0-alpha.1](https://github.com/chigkim/ChartMaker/releases/download/v0.1.0-alpha.1/ChartMaker-Win.v0.1.0-alpha.1.zip)
+
 To make beautiful braille chord charts  with ChartMaker follow these steps:
-1. Using the iReal Pro app, open any song and select Share. Select the "Export as XML" option and use email, dropbox, or some other method to get the XML file onto your Windows machine. Save   it in the XMLCharts directory of the ChartMaker folder.
-1. You can repeat the previous step as many times as you want -- ChartMaker can convert one or more  MusicXML files in a single shot.
-1. When you are ready to make your JAM Braille chord charts, select the MakeCharts.bat file in the ChartMaker folder and press return. After a few seconds (more if you are converting a lot of files at once) you will find your  new HTM files in the HTMCharts directory of the ChartMaker folder. 
-
-## Displaying or Embossing JAM Braille
-JAM Braille  HTM files  can be viewed using a refreshable braille display or embossed. To view with a braille display, open the HTM file in your browser of choice and make sure your screen reader has translation turned off and that you are using 6-dot computer braille. 
+1. Using the iReal Pro app, open any song and select Share.
+2. Select the "Export as XML" option and use email, dropbox, or some other method to get the XML file onto your machine.
+3. Open the file in ChartMaker from File menu.
+4. As soon as the file is opened, it should convert it into html file, and you should be able to review the result directly from the app.
+5. Make sure your screen reader has translation turned off and that you are using 6-dot computer braille.
 
 The easiest way to emboss the JAM Braille chord charts is with a [ViewPlus](https://viewplus.com) embosser. Simply open the HTM file in your browser of choice and use the print command. Make sure your ViewPlus embosser is selected and press OK. 
 
